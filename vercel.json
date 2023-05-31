@@ -1,0 +1,4 @@
+{
+  "devCommand": "uvicorn api.server:app --reload",
+  "rewrites": [{ "source": "/(.*)", "destination": "/api/server" }]
+}
