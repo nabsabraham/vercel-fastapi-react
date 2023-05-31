@@ -1,4 +1,4 @@
 {
-  "devCommand": "uvicorn api.server:app --reload",
+  "devCommand": "uvicorn api.server:app --reload; cd ui; npm start",
   "rewrites": [{ "source": "/(.*)", "destination": "/api/server" }]
 }
