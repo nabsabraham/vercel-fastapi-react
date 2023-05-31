@@ -4,7 +4,7 @@ import { useState } from "react";
 function App() {
   const [text, setText] = useState("");
   const pingServer = async () => {
-    const url = "http://localhost:8000/";
+    const url = "https://vercel-fastapi-react.vercel.app/";
     try {
       const response = await fetch(url, {
         method: "GET",
