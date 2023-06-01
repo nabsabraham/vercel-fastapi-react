@@ -18,7 +18,7 @@ app.add_middleware(
 )
 
 
-@app.get("/")
+@app.get("/hello")
 def read_root():
     return {"name": "nabs"}
 
